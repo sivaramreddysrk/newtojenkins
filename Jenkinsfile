@@ -11,7 +11,6 @@ pipeline{
         stage('Deploy-QA'){
             steps {
                 echo'QA'
-                input "Does the String Environment look ok?"
             }
         }
         stage ('Deploy-Production'){
